@@ -19,7 +19,7 @@ try:
         logger.info("------------------------")
         logger.info("Stream name: {stream_name}".format(stream_name = str(key)))
         logger.info("Stream data: {stream_data}".format(stream_data = streams[key]))
-        
+
 except KnownError:
     # Every exception caught in my program will be treated as "KnownError".
     # So I can just skip them easily.
